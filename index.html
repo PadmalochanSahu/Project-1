@@ -17,11 +17,11 @@
 <body>
     <header>
         <nav>
-            <div class="log3o">
+            <div class="logo">
                 <img src="./header/logo 1.png" />
             </div>
-            <div class="links">
-                <ul>
+            <i class="fa-solid fa-bars" onclick="togglemenu ()"></i> <div class="links" >
+                <ul id="menulist">
                 <li><a href="#Home">Home</a></li>
                 <li><a href="##About">About</a></li>
                 <li><a href="#Tech Stack">Tech Stack</a></li>
@@ -212,6 +212,19 @@
             </div>
         </div>
     </footer>
+    <script>
+        function togglemenu(){
+            let fabars = document.getElementById("fa-bars");
+            let menulist = document.getElementById("menulist");
+            if(menulist.style.display =="none")
+            {
+                menulist.style.display="block";
+        }
+        else{
+            menulist.style.display="none"
+        }
+        }
+    </script>
    
 </body>
 </html>
