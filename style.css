@@ -1,81 +1,57 @@
-body{
+body {
     margin: 20px;
-    background: linear-gradient(to right,#fdfdfd,#ebebeb 70%);
+    background: linear-gradient(to right, #fdfdfd, #ebebeb 70%);
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
 }
 
-.logo{
-width: 97px;
-height: 49px;
+.logo {
+    width: 97px;
+    height: 49px;
 }
 
-.links li, .links li a, .links ul {
- display: flex;
- list-style: none;
- text-decoration: none;
- align-items: center;
- padding-left: 30px;
- color: #666666;
- font-family: 'DM Sans', sans-serif;
- font-weight: 500;
-font-size: 15px;
+.links li,
+.links li a,
+.links ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    padding-left: 30px;
+    color: #666666;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
 
 }
-.fa-bars{
+
+.fa-bars {
     display: none;
 }
-.social-media{
+
+.social-media {
     padding-top: 8px;
-   
+
 }
-.intro{
+
+.intro {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     padding-top: 100px;
 }
-.about{
+
+.about {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 50px;
     letter-spacing: -1px;
     color: #42446E;
 }
-.tech-stack h3{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 37px;
-    margin: 0px;
-    padding-top: 150px;
-    color: #42446E;
-}
-.tech-stack p{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 28px;
-    margin: 0px;
-    padding-top: 10px;
-    color: #666666;
-}
 
-.partone{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 100px;
-}
-
-.parttwo{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 100px;
-}
-
-.projects h3{
+.tech-stack h3 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -85,7 +61,7 @@ font-size: 15px;
     color: #42446E;
 }
 
-.projects p{
+.tech-stack p {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -95,46 +71,86 @@ font-size: 15px;
     color: #666666;
 }
 
-.card-part-one{
+.part-one {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.part-two {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.projects h3 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    margin: 0px;
+    padding-top: 150px;
+    color: #42446E;
+}
+
+.projects p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    margin: 0px;
+    padding-top: 10px;
+    color: #666666;
+}
+
+.card-part-one {
     display: flex;
     justify-content: space-around;
     padding-top: 100px;
     width: 100%;
-    
+
 }
-.card1, .card2, .card3, .card4, .card5, .card6{
-  border: 0px solid black;
-  width: 300px;
-  height: 460px;
-  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
-  border-radius: 20px;
-  
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    border: 0px solid black;
+    width: 300px;
+    height: 460px;
+    box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
 }
 
 
-.card-content h4{
+.card-content h4 {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 23px;   
+    font-size: 23px;
     margin: 0px;
     padding-top: 10px;
     font-weight: 500;
 }
-.card-content p{
+
+.card-content p {
     text-align: start;
     padding-left: 25px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 15px;
 }
-.card-part-two{
+
+.card-part-two {
     display: flex;
     justify-content: space-around;
     padding-top: 100px;
     width: 100%;
 }
 
-.card-link{
+.card-link {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -142,35 +158,36 @@ font-size: 15px;
     padding-left: 10px;
 }
 
-.card-link i{
+.card-link i {
     padding-left: 24px;
 }
-.card-link a{
+
+.card-link a {
     color: black;
 }
 
 
-.main-f{
+.main-f {
     display: block;
     padding-top: 200px;
 }
 
 
-.upper{
+.upper {
     display: flex;
     width: 100%;
-    }
+}
 
-.logo-f{
+.logo-f {
     padding-left: 5%;
 }
 
-.contact-f{
+.contact-f {
     padding-left: 36%;
     padding-top: 1%;
 }
 
-.contact-f a{
+.contact-f a {
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     text-decoration: none;
@@ -178,180 +195,267 @@ font-size: 15px;
     padding-left: 75px;
 }
 
-.vector-f{
+.vector-f {
     padding-left: 4%;
     padding-top: 8px;
 }
-.vector-f img{
-    
+
+.vector-f img {
+
     padding-left: 11px;
 }
 
-.lower{
+.lower {
     display: flex;
     width: 100%;
 }
-.links-f li, .links-f li a, .links-f ul{
+
+.links-f li,
+.links-f li a,
+.links-f ul {
     display: flex;
- list-style: none;
- text-decoration: none;
- padding-left: 22px;
- color: #666666;
- font-family: 'Poppins', sans-serif;
- font-weight: 400;
-font-size: 15px;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 22px;
+    color: #666666;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
 }
-.lower p{
+
+.lower p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     padding-left: 261px;
     color: #666666;
 }
-span{
+
+span {
     background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+
 @media only screen and (max-width:700px) {
 
-.vector-f{
-    display: none;
-}
-.links-f li, .links-f li a, .links-f ul{
-    padding-left: 3%;
-}
-.lower{
-    flex-direction: column;
-}
-.card-part-one, .card-part-two{
-    flex-direction: column;
-    width: 50%;
-    padding-left: 25%;
-}
-.fa-bars {
-    display: block;
-    position: absolute;
-    top: 3%;
-    right: 8%;
-}
+    .vector-f {
+        display: none;
+    }
+
+    .links-f li,
+    .links-f li a,
+    .links-f ul {
+        padding-left: 3%;
+    }
+
+    .lower {
+        flex-direction: column;
+    }
+
+    .card-part-one,
+    .card-part-two {
+        flex-direction: column;
+        width: 50%;
+        padding-left: 25%;
+    }
+
+    .fa-bars {
+        display: block;
+        position: absolute;
+        top: 3%;
+        right: 8%;
+    }
 
 
-.links ul{
-    display: block;
-}
-.social-media{
-    display: none;
-}
-.partone, .parttwo{
-    flex-direction: column;
-}
-.contact-f{
-    padding-left: 21%;
-}
+    .links ul {
+        display: block;
+    }
 
-.card1, .card2, .card3, .card4, .card5, .card6{
-    margin-top: 4%;
-}
+    .social-media {
+        display: none;
+    }
 
-.vectors{
-    display: flex;
-    justify-content: space-around;
-}
+    .part-one,
+    .part-two {
+        flex-direction: column;
+    }
 
-.partone img, .parttwo img{
-    margin-top: 25%;
-}
+    .contact-f {
+        padding-left: 21%;
+    }
 
-.intro{
-    flex-direction: column-reverse;
-    padding-left: 5%;
-}
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        margin-top: 4%;
+    }
 
-.photo img{
-    
-    width: 47%;
+    .vectors {
+        display: flex;
+        justify-content: space-around;
+    }
 
-}
+    .part-one img,
+    .part-two img {
+        margin-top: 25%;
+    }
 
-.logo{
-    position: absolute;
-    left: 3%;
-    top: 2%;
-}
-.links{
-    position: relative;
-    margin-top: 19%;
-    width: 100%;
-    background-color: white;
-}
-.lower p{
-    padding-left: 30%;
-}
-.links li, .links li a, .links ul {
-color: #42446E;}
-}
+    .intro {
+        flex-direction: column-reverse;
+        padding-left: 5%;
+    }
 
-@media only screen and (max-width:1247px){
-    .vector-f{
+    .photo img {
+
+        width: 47%;
+
+    }
+
+    .logo {
+        position: absolute;
+        left: 3%;
+        top: 2%;
+    }
+
+    .links {
+        position: relative;
+        margin-top: 19%;
+        width: 100%;
+        background-color: white;
+    }
+
+    .lower p {
+        padding-left: 30%;
+    }
+
+    .links li,
+    .links li a,
+    .links ul {
+        color: #42446E;
+    }
+
+    .img-p{
+        width : 100px;
+        height: 90px; 
+        
+
+    }
+    #menuList{
         display: none;
     }
 }
-@media only screen and (max-width:450px){
-   .card-part-one, .card-part-two{
-    padding-left: 22%;
-   }
-   .contact-f{
-    padding-left: 1%;
-   }
-   .links-f ul{
-    display: none;
-   }
-   .lower p{
-    padding-left: 18px;
-   }
-}
-@media only screen and (max-width:900px){
-.card-part-one img, .card-part-two img{
-    width: 219px;
-}
-.card1, .card2, .card3, .card4, .card5, .card6{
-    width: 219px;
-    height: 440px;
-}
-.card-link{
-    font-size: 10px;
-    padding-left: 0px;
-}
-.card-content p{
-    padding-left: 12px;
 
+@media only screen and (max-width:1247px) {
+    .vector-f {
+        display: none;
+    }
 }
-.card-content h4{
-    font-size: 18px;
+
+@media only screen and (max-width:450px) {
+
+    .card-part-one {
+        padding-left: 20%;
+        padding-top: 40px;
+    }
+
+    .card-part-two{
+        padding-left: 20%;
+        padding-top: 0px;
+    }
+
+    .contact-f {
+        padding-left: 1%;
+    }
+
+    .links-f ul {
+        display: none;
+    }
+
+    .lower p {
+        padding-left: 18px;
+    }
+
+    #menuList {
+        display: none;
+    }
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        margin-top: 20px;
+    }
+    .main-f{
+        padding-top: 150px;
+    }
 }
-.lower{
-    display: block;
-}
-.lower p{
-    padding-left: 30%;
-   }
-   .fa-bars {
-    display: block;
-    position: absolute;
-    top: 3%;
-    right: 8%;
-}
-.links ul{
-    display: block;
-}
-.social-media{
-    display: none;
-}
-.links{
-    position: relative;
-    margin-top: 11%;
-    width: 100%;
-    background-color: white;
-}
+
+@media only screen and (max-width:900px) {
+
+    .card-part-one img,
+    .card-part-two img {
+        width: 219px;
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        width: 219px;
+        height: 440px;
+    }
+
+    .card-link {
+        font-size: 10px;
+        padding-left: 0px;
+    }
+
+    .card-content p {
+        padding-left: 12px;
+
+    }
+
+    .card-content h4 {
+        font-size: 18px;
+    }
+
+    .lower {
+        display: block;
+    }
+
+    .lower p {
+        padding-left: 30%;
+    }
+
+    .fa-bars {
+        display: block;
+        position: absolute;
+        top: 3%;
+        right: 8%;
+    }
+
+    .links ul {
+        display: block;
+    }
+
+    .social-media {
+        display: none;
+    }
+
+    .links {
+        position: relative;
+        margin-top: 11%;
+        width: 100%;
+        background-color: white;
+    }
+    #menuList{
+        display: none;
+    }
 }
